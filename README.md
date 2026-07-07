@@ -8,9 +8,15 @@
 
 ---
 
+## 🚀 Live Demo
+
+**[View Scholara Live on GitHub Pages](https://shubham55yadav.github.io/Scholara/)**
+
+---
+
 ## 📚 About Scholara
 
-**Scholara** is a comprehensive educational platform designed to empower engineering students with curated study materials, expert resources, and collaborative learning tools. Our mission is to bridge the gap between traditional education and modern learning needs by providing an all-in-one platform for academic excellence.
+**Scholara** is a comprehensive educational platform designed to empower engineering students with curated study materials, expert resources, and collaborative learning tools. Our mission is to bring smart, open-source academic management tools to researchers and students worldwide.
 
 Whether you're looking for detailed modules, previous year question papers, or quick study tips, Scholara is your one-stop destination for academic success.
 
@@ -46,7 +52,7 @@ Whether you're looking for detailed modules, previous year question papers, or q
 
 ---
 
-## 🚀 Getting Started
+## �� Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -147,12 +153,18 @@ Scholara/
 
 ## 🌐 Deployment
 
+### GitHub Pages Deployment
+This project is automatically deployed to GitHub Pages on every push to the main branch using GitHub Actions.
+
+**Live URL**: https://shubham55yadav.github.io/Scholara/
+
 ### Current Status
-⚠️ **Note**: Backend is currently hosted on Railway with limited plan restrictions. Alternative deployment options are being explored.
+- ✅ Frontend deployed on GitHub Pages
+- ⚠️ Backend is currently hosted on Railway with limited plan restrictions. Alternative deployment options are being explored.
 
 ### Deployment Checklist
-- [ ] Set up environment variables in your hosting platform
-- [ ] Configure build command and output directory
+- [x] Set up GitHub Pages deployment workflow
+- [x] Configure Vite for GitHub Pages base path
 - [ ] Set up backend API connection
 - [ ] Configure database (PostgreSQL)
 - [ ] Test all features in production environment
