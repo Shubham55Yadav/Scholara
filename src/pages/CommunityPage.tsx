@@ -134,7 +134,7 @@ const CommunityPage: React.FC = () => {
     <div className="min-h-screen py-16 px-6 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 dark:bg-indigo-950/40 dark:text-indigo-400 border border-indigo-250/50 dark:border-indigo-850/40 mb-4 uppercase tracking-wider">
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 dark:bg-indigo-950/40 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-900">
             👥 Discourse
           </span>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-850 dark:text-slate-100 tracking-tight">
@@ -219,14 +219,14 @@ const CommunityPage: React.FC = () => {
                   value={newDiscussion.title}
                   onChange={handleNewDiscussionChange}
                   placeholder="Discussion Title"
-                  className="w-full bg-transparent border border-slate-200 dark:border-slate-800 rounded-xl px-4 py-2.5 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all text-sm"
+                  className="w-full bg-transparent border border-slate-200 dark:border-slate-800 rounded-xl px-4 py-2.5 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500"
                 />
                 <textarea
                   name="description"
                   value={newDiscussion.description}
                   onChange={handleNewDiscussionChange}
                   placeholder="What would you like to discuss?"
-                  className="w-full bg-transparent border border-slate-200 dark:border-slate-800 rounded-xl px-4 py-2.5 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all text-sm"
+                  className="w-full bg-transparent border border-slate-200 dark:border-slate-800 rounded-xl px-4 py-2.5 text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:focus:ring-indigo-500"
                   rows={3}
                 ></textarea>
                 <div className="flex gap-2">
@@ -307,7 +307,7 @@ const CommunityPage: React.FC = () => {
                       <p className="text-slate-550 dark:text-slate-400 text-xs sm:text-sm">
                         {sampleRecentDiscussion.description}
                       </p>
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-50 dark:bg-slate-850 text-slate-500 dark:text-slate-400 border border-slate-200/50 dark:border-slate-800">
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-50 dark:bg-slate-850 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700">
                         {sampleRecentDiscussion.repliesCount} replies
                       </span>
                     </div>
@@ -329,9 +329,6 @@ const CommunityPage: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default CommunityPage;
 };
 
 export default CommunityPage;
