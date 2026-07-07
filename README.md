@@ -1,108 +1,206 @@
-# SavvyVitians
+# Scholara
+
 <div style="display: flex; align-items: center; gap: 10;">
-  <a href="https://savvy-vitian.vercel.app"> <img src="https://github.com/PrAyAg9/SavvyVitians/blob/main/images/logod.png" alt="Logo" style="height: 50px;" <a/> 
-  <span style="font-size: 20px; font-weight: Extra bold; margin: 0;">
-     <----->
-  </span>
-  <a href="https://savvy-vitian.vercel.app/" style="margin-left: auto;">
-    <img src="https://img.shields.io/badge/View-My%20Website-blue" alt="View My Website"/>
-  </a>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License"/>
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue" alt="TypeScript"/>
 </div>
 
-
----
-#### [ Currently it's backend is in Railway which is not accesible due to limit plan ]
 ---
 
-## Description
+## 📚 About Scholara
 
-Welcome to the **SavvyVitian** repository!, a platform designed to help engineering students excel in their academic journey. This frontend project provides an intuitive interface to access study materials, tips to pass, notes, question papers, and much more. You can also contribute to the platform by sharing your own resources to help fellow students!
+**Scholara** is a comprehensive educational platform designed to empower engineering students with curated study materials, expert resources, and collaborative learning tools. Our mission is to bridge the gap between traditional education and modern learning needs by providing an all-in-one platform for academic excellence.
 
-## Features 🧑‍💻
+Whether you're looking for detailed modules, previous year question papers, or quick study tips, Scholara is your one-stop destination for academic success.
 
-- **Vite**: Fast build and hot module replacement.
-- **TypeScript**: Strongly-typed development for fewer runtime errors.
-- **React**: Component-based architecture for building user interfaces.
-- **Backend**: Express + Ts + Postgre SQL + ORM (Sequelizer) -- Currently in Railway Server
-- **Responsive Design**: Optimized for mobile and desktop views.
+---
 
-## Installation 🚀
+## ✨ Key Features
 
-1. Clone the repository:
+- 🔍 **Smart Search**: Quickly find study materials by subject with an intuitive search interface
+- 📖 **Comprehensive Modules**: In-depth subject modules covering all essential topics
+- 💡 **Tips to Pass**: Practical hacks and strategies to ace your exams
+- 📝 **Detailed Notes**: Curated notes from students and teachers explaining complex concepts
+- 📄 **Question Papers**: Access to previous year question papers for effective practice
+- 🤝 **Community Contributions**: Add and share your own resources to help fellow students
+- 📱 **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
+- ⚡ **Fast Performance**: Optimized for quick loading and smooth navigation
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+- **React**: Component-based architecture for scalable UI
+- **TypeScript**: Type-safe development for fewer runtime errors
+- **Vite**: Lightning-fast build tool and hot module replacement
+- **Responsive CSS**: Mobile-first, responsive design approach
+
+### Backend
+- **Node.js + Express**: Robust and scalable server framework
+- **TypeScript**: Type-safe backend development
+- **PostgreSQL**: Reliable relational database
+- **Sequelize ORM**: Simplified database operations
+- **Deployment**: Railway Server
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+- Git
+
+### Installation
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Shubham55Yadav/Scholara.git
+   cd Scholara
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo
-   ```
-
-3. Install dependencies:
+2. **Install dependencies**:
    ```bash
    npm install
    ```
 
-## Development
+3. **Create environment variables**:
+   Create a `.env` file in the root directory with the following:
+   ```env
+   VITE_API_URL=your_backend_api_url
+   VITE_API_KEY=your_api_key
+   ```
 
-Run the development server:
-```bash
-npm run dev
-```
+4. **Start development server**:
+   ```bash
+   npm run dev
+   ```
 
-The application will be available at `http://localhost:5173/` by default.
+   The application will be available at `http://localhost:5173/`
 
-# Key Features ✨
+---
 
-Search by Subject: Find study materials for your subject using an intuitive search bar.
-- Organized Resources:
-  - Modules: Comprehensive subject modules.
-  - Tips to Pass: Quick hacks to ace your exams.
-  - Notes: Detailed explanations for tough concepts.
-  - Question Papers: Practice with past year papers.
-  - Contribute: Add your own resources to help others in the community.
+## 📦 Building for Production
 
-## Build
+To create an optimized production build:
 
-To build the project for production:
 ```bash
 npm run build
 ```
 
-The production-ready files will be output to the `dist` directory.
+The production-ready files will be generated in the `dist` directory.
 
-## Problem Statement 🤌
+### Deployment Configuration
 
-Finding the right study materials for engineering subjects can be a hassle. It aims to solve this problem by offering:
-
-- **Modules** for every subject.
-- **Tips to Pass** critical exams.
-- **Notes** curated by students and teachers.
-- **Previous Year Question Papers** to practice effectively.
-- A platform for students to **contribute resources** and expand the collection.
-  
-
-## Deployment 🙌
-
-This project is optimized for deployment on platforms like [Vercel](https://vercel.com/). Ensure you set up the following:
-
-- Environment variables in the Vercel dashboard.
-- Correct build command: `vite build`.
-- Output directory: `dist`.
-
-## Environment Variables
-
-For local development, create a `.env` file in the root of your project:
-```
-VITE_API_KEY=your-api-key
-VITE_API_URL=https://api.example.com
-```
-
-In production, configure these in your deployment platform's environment settings.
-
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit a pull request.
+**Recommended**: Deploy on [Vercel](https://vercel.com/) for best performance:
+- **Build Command**: `vite build`
+- **Output Directory**: `dist`
+- **Framework**: React
 
 ---
-Feel free to reach out for questions or collaborations!
+
+## 🎯 Problem Statement
+
+Engineering students often face challenges in:
+- ❌ Finding organized, high-quality study materials
+- ❌ Locating relevant previous year question papers
+- ❌ Accessing consolidated resources from multiple sources
+- ❌ Contributing to and collaborating within a learning community
+
+**Scholara solves this** by providing:
+- ✅ Organized resources across multiple categories
+- ✅ Peer-reviewed and curated content
+- ✅ Community-driven platform for contributions
+- ✅ Centralized repository for all academic needs
+
+---
+
+## 📋 Project Structure
+
+```
+Scholara/
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Page components
+│   ├── styles/         # CSS and styling
+│   ├── utils/          # Utility functions
+│   └── App.tsx         # Main application component
+├── public/             # Static assets
+├── .env.example        # Environment variables template
+├── package.json        # Project dependencies
+├── vite.config.ts      # Vite configuration
+└── README.md           # This file
+```
+
+---
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Create optimized production build
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run code linter (if configured)
+
+---
+
+## 🌐 Deployment
+
+### Current Status
+⚠️ **Note**: Backend is currently hosted on Railway with limited plan restrictions. Alternative deployment options are being explored.
+
+### Deployment Checklist
+- [ ] Set up environment variables in your hosting platform
+- [ ] Configure build command and output directory
+- [ ] Set up backend API connection
+- [ ] Configure database (PostgreSQL)
+- [ ] Test all features in production environment
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+### Contribution Guidelines
+- Ensure code follows TypeScript best practices
+- Write clear, descriptive commit messages
+- Update documentation as needed
+- Test your changes thoroughly
+
+---
+
+## 📧 Contact & Support
+
+Have questions or suggestions? Feel free to reach out!
+
+- 📧 **Email**: For collaboration inquiries
+- 🐛 **Issues**: Report bugs or request features via GitHub Issues
+- 💬 **Discussions**: Join our community discussions
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the LICENSE file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- All contributors who've helped improve Scholara
+- The engineering student community for their feedback and support
+- Open-source libraries and frameworks that power this platform
+
+---
+
+**Made with ❤️ by Shubham55Yadav**
+
+Last Updated: 2026-07-07
